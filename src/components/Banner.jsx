@@ -7,6 +7,7 @@ import "./banner.css";
 import alasQatal from "../assets/img/alasQatal.png";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
+import { CTA } from "../components/CTA"
 
 export const Banner = () => {
   
@@ -51,7 +52,8 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my portfolio</span>
             <h1>{"Hi! I'm "}<span className="wrap">{text}</span></h1>
-            <p>I'm a Full Stack Developer graduated in the SoyHenry Bootcamp. I was born in Argentina and currently living here. I'm also an Agricultural Engineer graduated in the Rosario National University (UNR) in Rosario, Argentina. I speak spanish (native), english (fluent), portuguese (intermediate) and italian (basic)</p>
+            <p>I'm a Full Stack Developer graduated in the SoyHenry Bootcamp. I was born in Argentina and currently living here. I'm also an Agricultural Engineer graduated in the Rosario National University (UNR) in Rosario, Argentina. I speak spanish (native), english (fluent), portuguese (intermediate) and italian (basic).</p>
+            <CTA/>
             <Router>
             <HashLink to="#connect" className="link-demo">
               <button onClick={() => console.log("connect")}>Let's connect<ArrowRightCircle size={25}/></button>
