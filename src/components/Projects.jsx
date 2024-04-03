@@ -31,7 +31,7 @@ export const Projects = () => {
       imgUrl: IMG6,
       title: "NaweR",
       github: "https://github.com/Geryer86/NaweR",
-      demo: "https://github.com/Geryer86/NaweR",
+      demo: "https://nawe-r.vercel.app/",
       description: "Agricultural app for begginer professionals and farmers who needs simple recomendations for crop and animals field production"
     },
 
